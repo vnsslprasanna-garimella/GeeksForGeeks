@@ -1,0 +1,11 @@
+def zero(n):
+    if n == 0:
+        print ("already Zero")
+    
+def pos(n):
+    for i in range(n-1,-1,-1):
+        print(i,end = " ")
+    
+def neg(n):
+    for i in range(n,1,1):
+        print(i,end = " ")
